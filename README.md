@@ -12,7 +12,7 @@ Si el producto es de otras clases, tiene 20% de descuento.
 Puerto: 8081
 
 ## **Servicios**
-Obtiene todos los productos:
+** 1) **Obtiene todos los productos:
 
 Mètodo: GET
 http://localhost:8081/products
