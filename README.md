@@ -63,13 +63,13 @@ Puerto: 8081
 	Url: http://localhost:8081/products/id
 	
 	Body
-```
-{
-    "name": "Arroz",
-    "price": 4,
-    "clase": "Consumo"
-}
-```
+	```
+	{
+		"name": "Arroz",
+		"price": 4,
+		"clase": "Consumo"
+	}
+	```
 ## **Base de datos mongodb**
 Usuario: fevece
 
