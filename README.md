@@ -12,13 +12,13 @@ Si el producto es de otras clases, tiene 20% de descuento.
 Puerto: 8081
 
 ## **Servicios**
-** 1) **Obtiene todos los productos:
+1. Obtiene todos los productos:
 
 Mètodo: GET
 http://localhost:8081/products
 
 
-Crea un nuevo producto:
+2. Crea un nuevo producto:
 
 Mètodo: POST
 http://localhost:8081/products
@@ -30,19 +30,19 @@ http://localhost:8081/products
 }
 ```
 
-Obtiene un producto por el id:
+3. Obtiene un producto por el id:
 
 Mètodo: GET
 http://localhost:8081/products/id
 
 
-Elimina un producto por el id:
+4. Elimina un producto por el id:
 
 Mètodo: DELETE
 http://localhost:8081/products/id
 
 
-Modifica un producto por el id:
+5. Modifica un producto por el id:
 
 Mètodo: PUT
 http://localhost:8081/products/id
