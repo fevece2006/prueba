@@ -61,6 +61,8 @@ Puerto: 8081
 	Método: PUT
 
 	Url: http://localhost:8081/products/id
+	
+	Body
 ```
 {
     "name": "Arroz",
