@@ -12,6 +12,7 @@ Si el producto es de otras clases, tiene 20% de descuento.
 Puerto: 8081
 
 ## **Servicios**
+End point 
 1. Obtiene todos los productos:
 
 	Método: GET
@@ -82,3 +83,21 @@ Puerto: 27017
 URI: mongodb://fevece:fevece@localhost:27017/bdprueba
 
 Collecion: products
+
+## **Circuit Breaker**
+Verificación de Circuit Breaker:
+
+- Mostrar estado cerrado:
+
+	URL: http://localhost:8081/actuator/circuitbreakers
+
+- Mostrar mensaje del servicio de circuit breaker:
+
+  Si el internet está habilitado, se mostrará el mensaje "Carga correcta de Atlas MongoDB".
+
+  URL: http://localhost:8081/serviciosexternos/processAtlasMongoDB
+  
+  
+  Si se desconecta el internet, el estado del circuitbreaker, pasa a abierto.
+
+  
