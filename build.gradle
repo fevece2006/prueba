@@ -58,6 +58,8 @@ dependencies {
 	implementation 'io.github.resilience4j:resilience4j-reactor:2.2.0'
 	implementation 'io.github.resilience4j:resilience4j-reactor:1.7.0'
 
+	implementation 'org.springframework.boot:spring-boot-starter-actuator:3.2.4'
+
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
 	//implementation 'org.springframework.boot:spring-boot-starter-data-r2dbc'
 
