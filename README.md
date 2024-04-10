@@ -14,14 +14,16 @@ Puerto: 8081
 ## **Servicios**
 1. Obtiene todos los productos:
 
-Mètodo: GET
-http://localhost:8081/products
+Método: GET
+
+Url: http://localhost:8081/products
 
 
 2. Crea un nuevo producto:
 
-Mètodo: POST
-http://localhost:8081/products
+Método: POST
+
+Url: http://localhost:8081/products
 ```
 {
     "name": "Arroz",
@@ -32,20 +34,23 @@ http://localhost:8081/products
 
 3. Obtiene un producto por el id:
 
-Mètodo: GET
-http://localhost:8081/products/id
+Método: GET
+
+Url: http://localhost:8081/products/id
 
 
 4. Elimina un producto por el id:
 
-Mètodo: DELETE
-http://localhost:8081/products/id
+Método: DELETE
+
+Url: http://localhost:8081/products/id
 
 
 5. Modifica un producto por el id:
 
 Mètodo: PUT
-http://localhost:8081/products/id
+
+Url: http://localhost:8081/products/id
 ```
 {
     "name": "Arroz",
@@ -55,8 +60,13 @@ http://localhost:8081/products/id
 ```
 ## **Base de datos mongodb**
 Usuario: fevece
+
 Pasword: fevece
+
 BD: bdprueba
+
 Puerto: 27017
+
 URI: mongodb://fevece:fevece@localhost:27017/bdprueba
+
 Collecion: products
