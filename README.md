@@ -24,13 +24,23 @@ Puerto: 8081
 	Método: POST
 
 	Url: http://localhost:8081/products
-```
-{
-    "name": "Arroz",
-    "price": 5,
-    "clase": "Consumo"
-}
-```
+	
+	Body: Opción1
+	```
+	{
+		"name": "Arroz",
+		"price": 5,
+		"clase": "Consumo"
+	}
+	```
+	Body: Opción2
+	```
+	{
+		"name": "Moto Yamaha",
+		"price": 5,
+		"clase": "Vehiculo"
+	}
+	```
 
 3. Obtiene un producto por el id:
 
@@ -54,7 +64,7 @@ Puerto: 8081
 ```
 {
     "name": "Arroz",
-    "price": 5,
+    "price": 4,
     "clase": "Consumo"
 }
 ```
