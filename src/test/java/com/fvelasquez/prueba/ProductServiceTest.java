@@ -27,7 +27,9 @@ public class ProductServiceTest {
 
     @Test
     public void testGetAllProducts() {
-        Flux<Product> products = Flux.just(new Product("Product 1", 10.0), new Product("Product 2", 20.0));
+        Flux<Product> products = Flux.just(new Product("Product 1",
+                10.0 ,
+                "Vehiculo"), new Product("Product 2", 20.0 , "Consumo"));
         when(repository.findAll()).thenReturn(products);
 
         StepVerifier.create(service.getAllProducts())

@@ -15,9 +15,10 @@ public class Product {
     private String id;
     private String name;
     private Double price;
+    private String clase;
 
 
-    public Product(String s, double v) {
+    public Product(String s, double v, String c) {
 
     }
 }

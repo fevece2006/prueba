@@ -62,6 +62,9 @@ dependencies {
 	//implementation 'org.springframework.boot:spring-boot-starter-data-r2dbc'
 
 	implementation 'org.drools:drools-core:9.44.0.Final'
+	implementation 'org.drools:drools-compiler:9.44.0.Final'
+	implementation 'org.drools:drools-mvel:9.44.0.Final'
+
 
 	testImplementation 'io.r2dbc:r2dbc-h2:1.0.0.RELEASE'
 
