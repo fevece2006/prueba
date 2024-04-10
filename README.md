@@ -14,16 +14,16 @@ Puerto: 8081
 ## **Servicios**
 1. Obtiene todos los productos:
 
-Método: GET
+	Método: GET
 
-Url: http://localhost:8081/products
+	Url: http://localhost:8081/products
 
 
 2. Crea un nuevo producto:
 
-Método: POST
+	Método: POST
 
-Url: http://localhost:8081/products
+	Url: http://localhost:8081/products
 ```
 {
     "name": "Arroz",
@@ -34,23 +34,23 @@ Url: http://localhost:8081/products
 
 3. Obtiene un producto por el id:
 
-Método: GET
+	Método: GET
 
-Url: http://localhost:8081/products/id
+	Url: http://localhost:8081/products/id
 
 
 4. Elimina un producto por el id:
 
-Método: DELETE
+	Método: DELETE
 
-Url: http://localhost:8081/products/id
+	Url: http://localhost:8081/products/id
 
 
 5. Modifica un producto por el id:
 
-Mètodo: PUT
+	Método: PUT
 
-Url: http://localhost:8081/products/id
+	Url: http://localhost:8081/products/id
 ```
 {
     "name": "Arroz",
