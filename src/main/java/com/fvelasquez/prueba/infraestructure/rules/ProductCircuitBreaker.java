@@ -40,7 +40,7 @@ public class ProductCircuitBreaker {
         // En un entorno real, esta sería la llamada al servicio real que obtiene el producto de la base de datos u otra fuente
         if ("existingProductId".equals(id)) {
             // Simular la obtención de un producto existente
-            return new Product("existingProductId", 100.00, "Vehiculo");
+            return new Product("existingProductId", 100.00, "Vehiculo", 20.00);
         } else {
             // Simular el escenario donde el producto no se encuentra
             throw new RuntimeException("Product not found");

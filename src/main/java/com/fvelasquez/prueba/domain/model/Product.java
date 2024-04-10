@@ -16,9 +16,10 @@ public class Product {
     private String name;
     private Double price;
     private String clase;
+    private Double descuento;
 
 
-    public Product(String s, double v, String c) {
+    public Product(String s, double v, String c, double d) {
 
     }
 }

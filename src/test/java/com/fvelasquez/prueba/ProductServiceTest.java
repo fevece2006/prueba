@@ -29,7 +29,7 @@ public class ProductServiceTest {
     public void testGetAllProducts() {
         Flux<Product> products = Flux.just(new Product("Product 1",
                 10.0 ,
-                "Vehiculo"), new Product("Product 2", 20.0 , "Consumo"));
+                "Vehiculo", 2.0), new Product("Product 2", 20.0 , "Consumo", 4.0));
         when(repository.findAll()).thenReturn(products);
 
         StepVerifier.create(service.getAllProducts())

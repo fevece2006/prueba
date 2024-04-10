@@ -11,9 +11,9 @@ rule "RulePrice"
     when
         $product : Product( clase == "Vehiculo")
     then
-        $product.setPrice( $product.getPrice() * 0.9 );
+        $product.setDescuento( $product.getPrice * 0.1);
         update($product);
-        System.out.println( $product.getName() + " tiene el 10% de descuento por pertenecer a la clase Vehiculo");
+         System.out.println( $product.getName() + " tiene el 10% de descuento por pertenecer a la clase Vehiculo");
 end
 
 rule "RulePriceOtherClasses"
@@ -21,9 +21,9 @@ rule "RulePriceOtherClasses"
     lock-on-active true
     salience 1
     when
-        $product : Product( clase != "Vehiculo")
+        $product : Product( clase != "Vehiculo" )
     then
-        $product.setPrice( $product.getPrice() * 0.8 );
+        $product.setDescuento( $product.getPrice * 0.2);
         update($product);
         System.out.println( $product.getName() + " tiene el 20% de descuento por pertenecer a otras clases");
 end
