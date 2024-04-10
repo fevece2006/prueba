@@ -2,6 +2,7 @@ package com.fvelasquez.prueba.infraestructure.rest;
 
 import com.fvelasquez.prueba.application.services.ProductService;
 import com.fvelasquez.prueba.domain.model.Product;
+import com.fvelasquez.prueba.infraestructure.rules.ProductRules;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -28,6 +29,10 @@ public class ProductController {
 
     @PostMapping
     public Mono<Product> createProduct(@RequestBody Product product) {
+
+        ProductRules productRules = new ProductRules();
+        productRules.applyRules(product);
+
         return service.createProduct(product);
     }
 

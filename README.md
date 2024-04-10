@@ -1,5 +1,9 @@
 Prueba de ingreso a INDRA
 
+#Drools: Aplicaci[on de reglas de negocio
+Si el producto es de la clase Vehiculo, tiene 10% de descuento
+Si el producto es de otras clases, tiene 20% de descuento
+
 #Puerto de la aplicación
 Puerto: 8081
 
@@ -14,8 +18,9 @@ Mètodo: POST
 http://localhost:8081/products
 
 {
-    "name": "Papel bond el millar",
-    "price": 20
+    "name": "Arroz",
+    "price": 5,
+    "clase": "Consumo"
 }
 
 
@@ -34,8 +39,9 @@ Mètodo: PUT
 http://localhost:8081/products/id
 
 {
-    "name": "Gaseosa de 3LT",
-    "price": 10
+    "name": "Arroz",
+    "price": 5,
+    "clase": "Consumo"
 }
 
 #Base de datos mongodb
@@ -44,3 +50,4 @@ Pasword: fevece
 BD: bdprueba
 Puerto: 27017
 URI: mongodb://fevece:fevece@localhost:27017/bdprueba
+Collecion: products
