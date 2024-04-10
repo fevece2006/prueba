@@ -37,7 +37,7 @@ Puerto: 8081
 	```
 	{
 		"name": "Moto Yamaha",
-		"price": 5,
+		"price": 12000,
 		"clase": "Vehiculo"
 	}
 	```
