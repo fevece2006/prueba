@@ -1,10 +1,12 @@
 # **INDRA: Prueba de ingreso** 
 La aplicación utiliza las tecnologías:
+
 Java 17, gradle, sprint boot, webflux, Resilience4j, mongodb, drools, lombok, circuit breaker, Junit, arquitectura hexagonal.
 
-## **Drools: Aplicaci[on de reglas de negocio**
-Si el producto es de la clase Vehiculo, tiene 10% de descuento
-Si el producto es de otras clases, tiene 20% de descuento
+## **Drools: Aplicación de reglas de negocio**
+Si el producto es de la clase Vehiculo, tiene 10% de descuento.
+
+Si el producto es de otras clases, tiene 20% de descuento.
 
 ## **Puerto de la aplicación**
 Puerto: 8081
