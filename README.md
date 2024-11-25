@@ -119,4 +119,4 @@ Verificación de Circuit Breaker:
   
   Si se desconecta el internet, el estado del circuitbreaker, pasa a abierto.
 
-  
+  "Lo sentimos, actualmente estamos experimentando dificultades técnicas para procesar pagos en línea. Por favor, inténtalo de nuevo más tarde. Agradecemos tu paciencia y comprensión".
