@@ -84,6 +84,25 @@ URI: mongodb://fevece:fevece@localhost:27017/bdprueba
 
 Collecion: products
 
+---------------------------------
+Para levantar la BD:
+Con MongoDB Compass, con el usuario admin(por defecto), dar clic en "Open Mongodb Shell" y ejecutar
+
+// Conéctate a la base de datos 'bdprueba'
+use bdprueba
+
+// Crea el usuario 'fevece' con la contraseña 'fevece'
+db.createUser({
+  user: "fevece",
+  pwd: "fevece",
+[
+    { role: "readWrite", db: "bdprueba" }]
+})
+
+// Verifica que el usuario ha sido creado
+db.getUsers()
+-------------------------------------
+
 ## **Circuit Breaker**
 Verificación de Circuit Breaker:
 
